@@ -2,6 +2,28 @@
 
 > version:4.18.1
 
+```
+Express
+├── benchmarks                  基准相关
+├── examples                    案例代码
+├── lib                         express 核心源码目录
+│   ├── middleware              中间件相关
+│   │   ├── init.js             将新增加在 req 和 res 的功能挂载到原始请求的 req 和 res 的原型上
+│   │   └── query.js            将请求 url 中的 query 部分添加到 req.query
+│   ├── router                  路由相关(核心)
+│   │   ├── index.js            
+│   │   ├── layer.js            
+│   │   └── route.js            
+│   ├── application.js          创建 express 应用后可直接调用的 api 均在此处（核心）
+│   ├── express.js              创建 express 应用
+│   ├── request.js              丰富了 http 中 request 实例的功能
+│   ├── response.js             丰富了 http 中 response 实例的功能
+│   ├── utils.js                一些辅助工具函数
+│   ├── view.js                 封装了模板渲染引擎，通过 res.render() 调用引擎渲染网页
+├── test                        单元测试
+├── index.js                    require('express') 的入口
+```
+
 **基本流程**
 
 ![image-20220518011332709](./img/Snipaste_2022-05-18_01-17-13.png)
