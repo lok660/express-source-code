@@ -4,7 +4,7 @@
 
 **基本流程**
 
-![image-20220518011332709](C:\Users\y1997\AppData\Roaming\Typora\typora-user-images\image-20220518011332709.png)
+![image-20220518011332709](./img/Snipaste_2022-05-18_01-17-13.png)
 
 **总结**
 
