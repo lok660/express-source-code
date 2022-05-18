@@ -11,9 +11,9 @@ Express
 │   │   ├── init.js             将新增加在 req 和 res 的功能挂载到原始请求的 req 和 res 的原型上
 │   │   └── query.js            将请求 url 中的 query 部分添加到 req.query
 │   ├── router                  路由相关(核心)
-│   │   ├── index.js            
-│   │   ├── layer.js            
-│   │   └── route.js            
+│   │   ├── index.js            路由器的核心代码
+│   │   ├── layer.js            路由器的层级路由
+│   │   └── route.js            路由器的路由
 │   ├── application.js          创建 express 应用后可直接调用的 api 均在此处（核心）
 │   ├── express.js              创建 express 应用
 │   ├── request.js              丰富了 http 中 request 实例的功能
