@@ -4,7 +4,7 @@
 
 ```
 Express
-├── benchmarks                  基准相关 测试性能
+├── benchmarks                  基准相关
 ├── examples                    案例代码
 ├── lib                         express 核心源码目录
 │   ├── middleware              中间件相关
