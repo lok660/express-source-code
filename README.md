@@ -24,7 +24,6 @@ Express
 ├── index.js                    require('express') 的入口
 ```
 
-
 **基本流程**
 
 ![image-20220518011332709](./img/Snipaste_2022-05-18_01-17-13.png)
